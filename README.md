@@ -58,6 +58,7 @@ Several columns were converted, columns like Rating, Actual Price, and Discounte
 Some columns were standardized for effective application and consistency. E.g The product name was changed to “new product name” as the former was too long and had to be trimmed. Some columns had unwanted characters in text columns and this had to be removed.
 
 6. Final Checks:
-The data set was confirmed to be free of null values, unnecessary duplicates, and formatting issues. It was also ensured that all fields were ready for analysis and visualization. 
+The data set was confirmed to be free of null values, unnecessary duplicates, and formatting issues. It was also ensured that all fields were ready for analysis and visualization.
+Below is the before and after view of the data set. 
 
 
