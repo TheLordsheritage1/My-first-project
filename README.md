@@ -41,24 +41,23 @@ The analysis process encompasses different stages:data source, data set descript
  Before any analysis was conducted, a comprehensive cleaning and preparation process was conduction. This step was essential for transforming the raw data into a structured and analysis-ready format. Several quality checks and process techniques were applied to preprocessing techniques to address missing values, eliminate redundancies, correct data types, and standardize entries across key fields.
 The following steps taken were:
 
-Data loading and inspection: The data was first loaded and inspected to detect or identify any missing value or any sort of error that needs correction 
+1. Data loading and inspection:
+The data was first loaded and inspected to detect or identify any missing value or any sort of error that needs correction 
   
-Handling Missing Values:
+3. Handling Missing Values:
 We identified and addressed missing values in key columns such as Ratings and Rating Count.
 Missing Discount values were replaced with 0, assuming no discount was applied.
 
- Removing Duplicates:
+3. Removing Duplicates:
 Duplicate entries were removed based on User ID, Product ID, and Review Content to eliminate repetition and ensure unbiased results.
 
-
-Correcting Data Types
+4. Correcting Data Types:
 Several columns were converted, columns like Rating, Actual Price, and Discounted Price e.t.c to numerical types where necessary and verified that text columns such as Product Name and Review were in the correct string format.
 
-Standardization:
+5. Standardization:
 Some columns were standardized for effective application and consistency. E.g The product name was changed to “new product name” as the former was too long and had to be trimmed. Some columns had unwanted characters in text columns and this had to be removed.
 
-
-Final Checks:
+6. Final Checks:
 The data set was confirmed to be free of null values, unnecessary duplicates, and formatting issues. It was also ensured that all fields were ready for analysis and visualization. 
 
 
