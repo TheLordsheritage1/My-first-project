@@ -21,10 +21,10 @@ By leveraging, cleaning, exploration and visualization techniques this project w
 The analysis process encompasses different stages:data source, data set description,data cleaning and preparation,tools used, exploratory data analysis, challenges, conclusion.
 
 ## Data set description 
- 1 **Data source**
+  **Data source**
  The primary source of data used for this project was provided as part of a stuctured assignment. It contains data from retail tech and was used for academic and analytical purpose.
 
-  2 **Features**
+   **Key fields**
  The data set contains approximately 1466 rows and 16 columns. The data set captures customers feedback on a wide range of products and some of the key columns include
  - product id: this is a unique identifier for each product
  - product name: The name or title of the product reviewed.
@@ -60,5 +60,40 @@ Some columns were standardized for effective application and consistency. E.g Th
 6. Final Checks:
 The data set was confirmed to be free of null values, unnecessary duplicates, and formatting issues. It was also ensured that all fields were ready for analysis and visualization.
 Below is the before and after view of the data set. 
+
+##Exploratory Data Analysis (EDA)
+
+###Overview
+The Exploratory Data Analysis (EDA) phase was conducted to understand the underlying structure of the dataset, identify key patterns, spot anomalies, and extract meaningful relationships between variables. Some of the questions asked and answered was:
+
+What is the total number of reviews per category?
+ To determine the total number of reviews per category, the rating count column was summed up under the pivot table and the data was grouped by category.
+
+ This shows that electronic products have the highest review either due to customer's interest in the product or the quality of such product. This may help in prioritizing product improvement and company resources.
+
+Which product has the highest average rating?
+ To arrive at this I used the excel function “average” to get the average of the rating, then I sorted the data to reveal the top 10 products with the highest rating and I grouped the data under product Id.
+
+ The ratings ranged from 1 to 5, with the majority of the top products receiving between 4 to 5 stars. This indicates a generally positive customer experience.
+
+What is the average actual price vs the discounted price by category?
+ To understand the pricing dynamics across different product categories, I computed the average actual price and the average discount price for each category. This comparison highlights how much, on average, customers are expected to pay versus the discounted amounts offered.
+
+ This concludes that pricing patterns may influence purchasing behavior and customer preferences within each category.
+What is the number of unique products per price range bucket?
+  A price range bucket is a way to group products or items into categories based on their prices. Instead of listing every exact price,it assists in analyzing products more easily 
+ To gain insight into the distribution of products across different pricing levels, I grouped the data into 3 different price range buckets(<200, 200-500, >500). How I did that was I created a new or calculated column, named it “Price bucket” and used the excel formula to segment the actual price into defined ranges and then counted the number of unique products within each bucket.
+I also grouped the new product name and set it to a distinct count.
+
+The result of this analysis helps us understand whether most products are concentrated in low-price or high-price categories, which is valuable for pricing strategies and inventory planning.
+
+What is the potential revenue by category?
+To calculate how much revenue each product category could generate, the method used to derive a potential revenue column was to create a calculated column using excel formula(=actual price * rating count).This assumes each rating represents a unit sold. The results were then grouped by category to identify which categories have the highest revenue potential.
+
+From the analysis, categories like Electronics and computer& accessories showed the highest potential revenue, indicating strong customer engagement and higher-value products.
+
+
+
+
 
 
