@@ -4,7 +4,6 @@ This was where I was able to attempt my very first project as a data analyst.
 ## Table of contents 
  - Project topic.
  - Project overview.
- - Data source
  - Data description
  - Data cleaning and preparation
  - Tools used
@@ -15,13 +14,24 @@ This was where I was able to attempt my very first project as a data analyst.
 # Project topic: Amazon product review analysis.
 
 ## Product overview
-This data analysis project provides a comprehensive insights on key trends, customer's prefernces and product performance of retail tech, a company which provides e-commerce to sellers on platforms like amazon over the past years. 
+ This data analysis project provides a comprehensive insights on key trends, customer's prefernces and product performance of retail tech, a company which provides e-commerce to sellers on platforms like amazon over the past years. 
 By leveraging, cleaning, exploration and visualization techniques this project will be able to give insightful key findings on how businesses can understand consumer behavior, initiate customer engagement and improve product strategy.
 
-The analysis covers rating distribution,total revenue,rating count,discount impact based on combined review metrics. 
+ The analysis covers rating distribution,total revenue,rating count,discount impact based on combined review metrics. 
 The analysis process encompasses different stages:data source, data set description,data cleaning and preparation,tools used, exploratory data analysis, challenges, conclusion.
 
-## Data source
-The primary source of data used for this project was provided as part of a stuctured assignment. It contains data from retail tech and was used for academic and analytical purpose.
+## Data set description 
+ 1 **Data source**
+ The primary source of data used for this project was provided as part of a stuctured assignment. It contains data from retail tech and was used for academic and analytical purpose.
 
-## Data description 
+  2 **Features**
+ The data set contains approximately 1466 rows and 16 columns. The data set captures customers feedback on a wide range of products and some of the key columns include
+ - product id: this is a unique identifier for each product
+ - product name: The name or title of the product reviewed.
+ - user id: unique identifier of the customer who submitted the reviw.
+ - category: this is the classification or the type of product
+ - rating: this is the star rating provided by the customer(usually from 1-5)
+ - actual proce: this is the original amount of products before any discount is given.
+ - rating count: this is the total number of ratings received by a product.
+ - discount percentage: this is the portion by which the original price of a product has already been reduced
+    Some entrues included missing figures or inconsistent values especially in the rating, actual price and rating count but was handled and corrected during the data cleaning process.
