@@ -34,4 +34,8 @@ The analysis process encompasses different stages:data source, data set descript
  - actual proce: this is the original amount of products before any discount is given.
  - rating count: this is the total number of ratings received by a product.
  - discount percentage: this is the portion by which the original price of a product has already been reduced
-    Some entrues included missing figures or inconsistent values especially in the rating, actual price and rating count but was handled and corrected during the data cleaning process.
+
+  Some entrues included missing figures or inconsistent values especially in the rating, actual price and rating count but was handled and corrected during the data cleaning process.
+
+## Data cleaning and preparation 
+ Before any analysis was conducted, a comprehensive cleaning and preparation process was conduction. 
