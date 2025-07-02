@@ -85,7 +85,8 @@ this is the data set after cleaning:
 #### a. *What is the total number of reviews per category?*
 
  To determine the total number of reviews per category, the rating count column was summed up under the pivot table and the data was grouped by category.
- 
+ ![column 3](https://github.com/user-attachments/assets/c1a92303-c125-4b6a-be5c-d99bb51a23f9)
+
 
  This shows that electronic products have the highest review either due to customer's interest in the product or the quality of such product. This may help in prioritizing product improvement and company resources.
 
