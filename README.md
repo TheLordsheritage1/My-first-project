@@ -71,13 +71,11 @@ The data set was confirmed to be free of null values, unnecessary duplicates, an
 
 Below is the before and after view of the data set. 
 
-this is the dat set before cleaning
+this is the data set before cleaning:
+![Screenshot_20250701-182022~2](https://github.com/user-attachments/assets/55c00fd0-db3d-4119-950c-a609d6582869)
 
 this is the data set after cleaning:
 ![Screenshot (9)](https://github.com/user-attachments/assets/4036d57c-7f0e-44f6-bd2c-3d5667cdbf32)
-
-
-
 
 ## Exploratory Data Analysis (EDA)
 
@@ -87,6 +85,7 @@ this is the data set after cleaning:
 #### a. *What is the total number of reviews per category?*
 
  To determine the total number of reviews per category, the rating count column was summed up under the pivot table and the data was grouped by category.
+ 
 
  This shows that electronic products have the highest review either due to customer's interest in the product or the quality of such product. This may help in prioritizing product improvement and company resources.
 
