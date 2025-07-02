@@ -20,6 +20,8 @@ By leveraging, cleaning, exploration and visualization techniques this project w
  The analysis covers rating distribution,total revenue,rating count,discount impact based on combined review metrics. 
 The analysis process encompasses different stages:data source, data set description,data cleaning and preparation,tools used, exploratory data analysis, challenges, conclusion.
 
+## Tools Used
+- Microsoft excel []
 ## Data set description 
   a. **Data source**
 
