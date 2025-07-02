@@ -4,11 +4,11 @@ This was where I was able to attempt my very first project as a data analyst.
 ## Table of contents 
  - Project topic.
  - Project overview.
- - Data description
- - Data cleaning and preparation
- - Tools used
- - exploratory data analysis
- - challenges
+ - Data description.
+ - Data cleaning and preparation.
+ - exploratory data analysis.
+ - -Tools used.
+ - challenges.
  - conclusion 
 
 # Project topic: Amazon product review analysis.
