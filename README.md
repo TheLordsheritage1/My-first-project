@@ -110,6 +110,7 @@ this is the data set after cleaning:
   A price range bucket is a way to group products or items into categories based on their prices. Instead of listing every exact price,it assists in analyzing products more easily 
  To gain insight into the distribution of products across different pricing levels, I grouped the data into 3 different price range buckets(<200, 200-500, >500). How I did that was I created a new or calculated column, named it “Price bucket” and used the excel formula to segment the actual price into defined ranges and then counted the number of unique products within each bucket.
 I also grouped the new product name and set it to a distinct count.
+
 ![column 10](https://github.com/user-attachments/assets/af6ba75a-e4af-4693-b37e-7803dafb38f7)
 
 The result of this analysis helps us understand whether most products are concentrated in low-price or high-price categories, which is valuable for pricing strategies and inventory planning.
@@ -117,6 +118,7 @@ The result of this analysis helps us understand whether most products are concen
 #### e. *What is the potential revenue by category?*
 
 To calculate how much revenue each product category could generate, the method used to derive a potential revenue column was to create a calculated column using excel formula(=actual price * rating count).This assumes each rating represents a unit sold. The results were then grouped by category to identify which categories have the highest revenue potential.
+
 ![column 9](https://github.com/user-attachments/assets/726fc6c4-3253-41f0-b57f-02e7fc0be41f)
 
 From the analysis, categories like Electronics and computer& accessories showed the highest potential revenue, indicating strong customer engagement and higher-value products.
