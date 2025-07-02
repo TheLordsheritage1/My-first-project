@@ -21,7 +21,8 @@ By leveraging, cleaning, exploration and visualization techniques this project w
 The analysis process encompasses different stages:data source, data set description,data cleaning and preparation,tools used, exploratory data analysis, challenges, conclusion.
 
 ## Tools Used
-- Microsoft excel []
+- Microsoft excel(download here)[]
+  - for data cleaning 
 ## Data set description 
   a. **Data source**
 
