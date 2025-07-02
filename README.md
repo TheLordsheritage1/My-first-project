@@ -123,7 +123,9 @@ To calculate how much revenue each product category could generate, the method u
 
 From the analysis, categories like Electronics and computer& accessories showed the highest potential revenue, indicating strong customer engagement and higher-value products.
 
-## Challenges 
+## insights and key findings
+from the above analysis it is evident that:
+- Electronics have the highest number of customer review possibly due to product's 
 
 
 
