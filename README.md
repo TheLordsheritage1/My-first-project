@@ -21,7 +21,7 @@ By leveraging, cleaning, exploration and visualization techniques this project w
 The analysis process encompasses different stages:data source, data set description,data cleaning and preparation,tools used, exploratory data analysis, challenges, conclusion.
 
 ## Tools Used
-- Microsoft excel[download here](https://www.microsoft.com)
+- Microsoft excel [download here](https://www.microsoft.com)
   - for initial data exploration.
   - for data cleaning.
   - for data filtering.
@@ -53,7 +53,7 @@ The following steps taken were:
 1. Data loading and inspection:
 The data was first loaded and inspected to detect or identify any missing value or any sort of error that needs correction 
   
-3. Handling Missing Values:
+2. Handling Missing Values:
 We identified and addressed missing values in key columns such as Ratings and Rating Count.
 Missing Discount values were replaced with 0, assuming no discount was applied.
 
@@ -68,7 +68,16 @@ Some columns were standardized for effective application and consistency. E.g Th
 
 6. Final Checks:
 The data set was confirmed to be free of null values, unnecessary duplicates, and formatting issues. It was also ensured that all fields were ready for analysis and visualization.
+
 Below is the before and after view of the data set. 
+
+this is the dat set before cleaning
+
+this is the data set after cleaning:
+![Screenshot (9)](https://github.com/user-attachments/assets/4036d57c-7f0e-44f6-bd2c-3d5667cdbf32)
+
+
+
 
 ## Exploratory Data Analysis (EDA)
 
