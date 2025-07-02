@@ -21,10 +21,12 @@ By leveraging, cleaning, exploration and visualization techniques this project w
 The analysis process encompasses different stages:data source, data set description,data cleaning and preparation,tools used, exploratory data analysis, challenges, conclusion.
 
 ## Data set description 
-  a **Data source**
- The primary source of data used for this project was provided as part of a stuctured assignment. It contains data from retail tech and was used for academic and analytical purpose.
+  a. **Data source**
 
-  b **Key fields**
+The primary source of data used for this project was provided as part of a stuctured assignment. It contains data from retail tech and was used for academic and analytical purpose.
+
+  b. **Key fields**
+ 
  The data set contains approximately 1466 rows and 16 columns. The data set captures customers feedback on a wide range of products and some of the key columns include
  - product id: this is a unique identifier for each product
  - product name: The name or title of the product reviewed.
