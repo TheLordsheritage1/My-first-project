@@ -25,7 +25,7 @@ The analysis process encompasses different stages:data source, data set descript
   - for initial data exploration.
   - for data cleaning.
   - for data filtering.
-  - for pivit table analysis.
+  - for pivot table analysis.
  
 ## Data set description 
   a. **Data source**
@@ -107,6 +107,7 @@ To calculate how much revenue each product category could generate, the method u
 
 From the analysis, categories like Electronics and computer& accessories showed the highest potential revenue, indicating strong customer engagement and higher-value products.
 
+## Challenges 
 
 
 
