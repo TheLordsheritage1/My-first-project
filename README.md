@@ -8,8 +8,8 @@ This was where I was able to attempt my very first project as a data analyst.
  - Dataset description.
  - Data cleaning and preparation.
  - exploratory data analysis.
- - challenges.
- - conclusion 
+ - key insights and findings.
+ - conclusion.
 
 # Project topic: Amazon product review analysis.
 
@@ -101,6 +101,7 @@ this is the data set after cleaning:
 #### c. *What is the average actual price vs the discounted price by category?*
 
  To understand the pricing dynamics across different product categories, I computed the average actual price and the average discount price for each category. This comparison highlights how much, on average, customers are expected to pay versus the discounted amounts offered.
+ 
 ![column 5](https://github.com/user-attachments/assets/eb1011c3-ac50-4ed7-a840-6e17dc004c63)
 
  This concludes that pricing patterns may influence purchasing behavior and customer preferences within each category.
@@ -133,5 +134,14 @@ from the above analysis it is evident that:
 
 ## Conclusion
 
+This project aims to analyze Amazon product reviews to uncover key insights that could support key decision-making. Through various processes which included data cleaning, exploratory data analysis (EDA), and visualization, we were able to extract meaningful findings regarding product performance, customer preferences, and category trends.
+
+ By evaluating pricing strategies, discount effectiveness, and customer reviews, we gained a deeper understanding of what drives customer behavior on the platform. Certain product categories such as [electronics] stood out for it's high engagement and positive ratings, while others demonstrated potential for improvement. The pricing analysis also highlighted relationships between discounts and consumer interest, offering potential marketing leverage for sellers.
+
+The insights derived from this analysis can be valuable to businesses looking to optimize their product offerings, pricing strategies, and customer experience. Furthermore, it demonstrates the importance of data analysis in e-commerce and how structured reviews and ratings can serve as powerful tools for evaluating product quality and customer satisfaction.
+
+In conclusion, this project has not only provided actionable insights into Amazon’s product review dataset but also reinforced the value of data exploration in understanding large datasets.
+
+Thank you for your time. Have a lovely day.
 
 
