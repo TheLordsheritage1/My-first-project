@@ -125,9 +125,13 @@ From the analysis, categories like Electronics and computer& accessories showed 
 
 ## insights and key findings
 from the above analysis it is evident that:
-- Electronics have the highest number of customer review possibly due to product's 
 
+- Electronics have the highest number of ratings which indicates the product is the most purchased item.
+- Poduct id B09ZHCJDP1 has the highest rating which indicates that either it has a competitive edge among other products due to quality or it meets the customers needs.
+- Electronics was also identified as having the highest potential revenue indicating significant growth opportunities.
+- A significant amount of products are priced above 500.
 
+## Conclusion
 
 
 
