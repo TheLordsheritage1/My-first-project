@@ -87,6 +87,7 @@ this is the data set after cleaning:
  To determine the total number of reviews per category, the rating count column was summed up under the pivot table and the data was grouped by category.
 
 ![column 3](https://github.com/user-attachments/assets/e7e43e8e-5525-485b-8f7d-ca0bdee9a93f)
+<img width="297" height="431" alt="REVIEWS PER CATEGORY" src="https://github.com/user-attachments/assets/cae13d20-821b-436b-99b8-3153feeeede4" />
 
  This shows that electronic products have the highest review either due to customer's interest in the product or the quality of such product. This may help in prioritizing product improvement and company resources.
 
@@ -95,6 +96,7 @@ this is the data set after cleaning:
  To arrive at this I used the excel function “average” to get the average of the rating, then I sorted the data to reveal the top 10 products with the highest rating and I grouped the data under product Id.
 
 ![column 4](https://github.com/user-attachments/assets/6ebd62f5-12d8-457e-bfd6-bc41b896a248)
+<img width="305" height="427" alt="HIGHEST AVERGE RATING" src="https://github.com/user-attachments/assets/473ce504-a547-49a8-ad83-b06005645054" />
 
   The ratings ranged from 1 to 5, with the majority of the top products receiving between 4 to 5 stars. This indicates a generally positive customer experience.
 
@@ -113,6 +115,7 @@ this is the data set after cleaning:
 I also grouped the new product name and set it to a distinct count.
 
 ![column 10](https://github.com/user-attachments/assets/af6ba75a-e4af-4693-b37e-7803dafb38f7)
+<img width="283" height="190" alt="UNIQUE PRODUCTS" src="https://github.com/user-attachments/assets/66e2f71c-9f4e-41d1-ab39-d2659e952676" />
 
 The result of this analysis helps us understand whether most products are concentrated in low-price or high-price categories, which is valuable for pricing strategies and inventory planning.
 
@@ -121,6 +124,7 @@ The result of this analysis helps us understand whether most products are concen
 To calculate how much revenue each product category could generate, the method used to derive a potential revenue column was to create a calculated column using excel formula(=actual price * rating count).This assumes each rating represents a unit sold. The results were then grouped by category to identify which categories have the highest revenue potential.
 
 ![column 9](https://github.com/user-attachments/assets/726fc6c4-3253-41f0-b57f-02e7fc0be41f)
+<img width="293" height="299" alt="POTENTIAL REVENUE" src="https://github.com/user-attachments/assets/1ec283e8-4621-4563-942d-d22ee6f8e613" />
 
 From the analysis, categories like Electronics and computer& accessories showed the highest potential revenue, indicating strong customer engagement and higher-value products.
 
